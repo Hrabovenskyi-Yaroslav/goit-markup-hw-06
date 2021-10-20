@@ -669,6 +669,11 @@ body {
   margin-top: 4px;
   display: inline-block;
 }
+.input-modal:focus {
+  border: 1px solid var(--fourth-text-color);
+  border-radius: 4px;
+}
+
 .for-svg {
   position: relative;
 }
