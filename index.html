@@ -414,22 +414,57 @@
 
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
-            <h2 class="modal-tittle">Оставьте свои данные, мы вам перезвоним</h2>
+            <h1 class="modal-tittle">Оставьте свои данные, мы вам перезвоним</h1>
             <form action="">
+
+                
                 <label for="name" class="label-modal">Имя</label>
-                <input type="text" name="name" id="name" class="input-modal">
+                <div class="for-svg">
+                    <input type="text" name="name" id="name" class="input-modal">
+                    <svg class="svg-modal">
+                        <use href="./images/sprite.svg#icon-person-black-2"></use>
+                    </svg>
+                </div>
 
+
+
+               
                 <label for="tel" class="label-modal">Телефон</label>
-                <input type="tel" name="tel" id="tel" class="input-modal">
+                <div class="for-svg">
+                    <input type="tel" name="tel" id="tel" class="input-modal">
+                    <svg class="svg-modal">
+                        <use href="./images/sprite.svg#icon-phone-black-2"></use>
+                    </svg>
+                </div>
 
+
+                
+                
                 <label for="email" class="label-modal">Почта</label>
-                <input type="email" name="email" id="email" class="input-modal">
+                <div class="for-svg">
+                    <input type="email" name="email" id="email" class="input-modal">
+                    <svg class="svg-modal">
+                        <use href="./images/sprite.svg#icon-email-black-2"></use>
+                    </svg>
+                </div>
+
+
+
+
 
                 <label for="message" class="label-modal">Комментарий</label>
                 <textarea name="message" id="message" placeholder="Введите текст" class="texterea"></textarea>
 
-                <input type="radio" name="agree" value="sendagree">
-                <label>Соглашаюсь с рассылкой и принимаю Условия договора</label>
+                
+
+                <label class="label-checkbox">Соглашаюсь с рассылкой и принимаю <a href="" class="link-modal" >Условия договора</a></label>
+                <div class="for-svg">
+                    <input type="checkbox" name="agree" value="sendagree">
+                    <svg class="svg-modal">
+                        <use href="./images/sprite.svg#icon-for-checkbox-2"></use>
+                    </svg>
+                </div>
+
 
                 <button type="submit" class="btn-modal">Отправить</button>
                 
