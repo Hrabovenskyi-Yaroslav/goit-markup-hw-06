@@ -534,10 +534,8 @@ body {
   text-align: center;
 }
 .icon-send::after {
-  content: " ";
-  background-image: url(../images/send.svg);
-  background-repeat: no-repeat;
-  align-content: center;
+  content: url("../images/send.svg");
+  margin-left: 10px;
 }
 
 /*------main second page------*/
