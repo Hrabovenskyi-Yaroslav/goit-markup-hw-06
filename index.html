@@ -414,56 +414,52 @@
 
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
-            <h1 class="modal-tittle">Оставьте свои данные, мы вам перезвоним</h1>
+            <p class="modal-tittle">Оставьте свои данные, мы вам перезвоним</p>
             <form action="">
 
-                
-                <label for="name" class="label-modal">Имя</label>
-                <div class="for-svg">
-                    <input type="text" name="name" id="name" class="input-modal">
-                    <svg class="svg-modal">
-                        <use href="./images/sprite.svg#icon-person-black-2"></use>
-                    </svg>
+                <div class="div-form">  
+                    <label for="name" class="label-modal">Имя</label>
+                    <span class="for-svg">
+                        <input type="text" name="name" id="name" class="input-modal">
+                        <svg class="svg-modal">
+                            <use href="./images/sprite.svg#icon-person-black-2"></use>
+                        </svg>
+                    </span>
+
+            
+                    <label for="tel" class="label-modal">Телефон</label>
+                    <span class="for-svg">
+                        <input type="tel" name="tel" id="tel" class="input-modal">
+                        <svg class="svg-modal">
+                            <use href="./images/sprite.svg#icon-phone-black-2"></use>
+                        </svg>
+                    </span>
+    
+
+                    <label for="email" class="label-modal">Почта</label>
+                    <span class="for-svg">
+                        <input type="email" name="email" id="email" class="input-modal">
+                        <svg class="svg-modal">
+                            <use href="./images/sprite.svg#icon-email-black-2"></use>
+                        </svg>
+                    </span>
                 </div>
-
-
-
-               
-                <label for="tel" class="label-modal">Телефон</label>
-                <div class="for-svg">
-                    <input type="tel" name="tel" id="tel" class="input-modal">
-                    <svg class="svg-modal">
-                        <use href="./images/sprite.svg#icon-phone-black-2"></use>
-                    </svg>
-                </div>
-
-
-                
-                
-                <label for="email" class="label-modal">Почта</label>
-                <div class="for-svg">
-                    <input type="email" name="email" id="email" class="input-modal">
-                    <svg class="svg-modal">
-                        <use href="./images/sprite.svg#icon-email-black-2"></use>
-                    </svg>
-                </div>
-
-
-
-
 
                 <label for="message" class="label-modal">Комментарий</label>
                 <textarea name="message" id="message" placeholder="Введите текст" class="texterea"></textarea>
 
                 
 
-                <label class="label-checkbox">Соглашаюсь с рассылкой и принимаю <a href="" class="link-modal" >Условия договора</a></label>
-                <div class="for-svg">
-                    <input type="checkbox" name="agree" value="sendagree">
-                    <svg class="svg-modal">
-                        <use href="./images/sprite.svg#icon-for-checkbox-2"></use>
-                    </svg>
-                </div>
+            
+                <input type="checkbox" name="agree" value="sendagree" id="checkbox" class="modal-checkbox hidden">
+                <label for="checkbox" class="label-checkbox">
+                    <span>
+                        <svg class="svg-modal-chekbox">
+                            <use href="./images/sprite.svg#icon-Vector"></use>
+                        </svg>
+                    </span>Соглашаюсь с рассылкой и принимаю  <a href="" class="link-modal"> Условия договора</a>
+                </label>
+                
 
 
                 <button type="submit" class="btn-modal">Отправить</button>
